@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+   <title>ITMD-361 Project 1</title>
+   <link rel="stylesheet" type="text/css" href="style.css" />
+ </head>
+  
+  <body>
+    <header>
+      <nav id="nav">
+	    <ul>
+          <li><a href="index.html">Introduction Page</a></li>
+          <li><a href="resume.html">My Resume</a></li>
+	      <li><a href="hobbies.html">Hobbies</a></li>
+        </ul>
+	   </nav>
+    </header>
+	
+	
+      <h1>Introduction</h1>
+	  <p><strong>My name is Siddhanth Naik.</strong> I am from Karnataka, India.</p>
+	  <p>I came to Chicago as a International student this fall 2017.</p>
+	  <p>I will be pursuing my masters in data management.</p>
+	  <p>I have completed my bachelors degree in mechanical engineering.</p>
+	  <p>I have worked as a intern in Precision Expansion Bellows Industries.</p>
+	  <p>As i stayed in a costal area in India, i love costal food the most.</p>
+      <img class="img1" src="media/50819.jpg" alt="Fish" title="Fish Curry">
+      <p>I love watching cricket</p>
+	  <p>My favorite cricket team is Team India</p>
+	  <p>I aslo love watching football the most and my favorite football club is Manchester United.</p>	 
+	  <img class="img1" src="media/manutd.jpg" alt="ManchesterUnited" title="ManchesterUnited">
+	  <p>Hometown, Belgaum</p>
+	  <div id="Belgaum" style="width:50%;height:450px;"> </div><p> </p>
+		<script>
+			function myMap() {
+			var mapBelgaum= {
+  			center:new google.maps.LatLng(15.849695,74.497674),
+   			zoom:7,
+			mapTypeId: google.maps.MapTypeId.HYBRID
+			};
+			var mapI=new google.maps.Map(document.getElementById("Belgaum"),mapBelgaum);
+			}
+		</script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJHqM95J8cSJBC9UJriQfRssT5n4pDsNo&callback=myMap"></script>
+	  
+      <footer>
+      <p>Posted by: Siddhanth Naik</p>
+      <p>Contact information: <a href="mailto:snaik7@hawk.iit.edu">snaik7@hawk.iit.edu</a>.</p>
+      </footer>
+
+ </body>
+</html>
